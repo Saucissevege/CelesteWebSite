@@ -1,0 +1,14 @@
+@font-face {
+    font-family: celesteFont;
+    src: url(../font/Renogare-Regular.otf);
+  }
+  
+* {
+    font-family: celesteFont;
+}
+
+header {
+    display: flex;
+    flex: row;
+    align-items: center;
+}
