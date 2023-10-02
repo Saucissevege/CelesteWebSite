@@ -5,10 +5,47 @@
   
 * {
     font-family: celesteFont;
+    color: white;
+}
+
+body {
+    background-image: url("../imagenes/Background.png");
+    background-size: auto;
+    background-attachment: fixed;
+    width: auto;
+    margin: 0px;
 }
 
 header {
+    width: 100%;
+    margin: 0%;
     display: flex;
     flex: row;
     align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#140b15, #302746, #140b15);
+    /*background-color:140b15 #302746;*/
+    padding-bottom: 10px;
+}
+
+header img {
+    width: 80px;
+}
+
+nav {
+    background-color: #140b15;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+nav a {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
 }
