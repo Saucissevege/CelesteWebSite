@@ -14,11 +14,11 @@ main > * {
         flex-direction: column;
     }
 
-    li {
+    main li {
         padding: auto;
     }
 
-    ol {
+    main ol {
         margin: 0px auto;
     }
 
@@ -32,11 +32,11 @@ main > * {
         flex-direction: row;
     }
 
-    li {
+    main li {
         padding: 10px;
     }
 
-    ol {
+    main ol {
         margin: 05pxpx auto;
     }
 
@@ -49,16 +49,16 @@ p {
     text-align: justify;
 }
 
-ol {
+main ol {
     width: 90%;
     margin: 0px auto;
 }
 
-ul {
+main ul {
     width: 90%;
 }
 
-li {
+main li {
     text-align: justify;
 }
 
