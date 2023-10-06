@@ -1,0 +1,14 @@
+main > *{
+    background-color: rgba(82, 70, 112, 0.7);
+    border-radius: 10px;
+    margin: 5% auto;
+    padding: 1% 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+section img {
+    float: right;
+}

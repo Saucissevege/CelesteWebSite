@@ -1,0 +1,11 @@
+main {
+    background-color: rgba(82, 70, 112, 0.7);
+    border-radius: 10px;
+}
+
+main > * {
+    width: 95%;
+    margin: 0px auto;
+    padding: 1% 0px;
+}
+
