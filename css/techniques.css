@@ -2,13 +2,29 @@ main > *{
     background-color: rgba(82, 70, 112, 0.7);
     border-radius: 10px;
     margin: 5% auto;
-    padding: 1% 0px;
 }
 
 h2 {
     text-align: center;
+    padding: 1% 0px;
+}
+
+section {
+    /* overflow: auto; */
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
 }
 
 section img {
-    float: right;
+    padding: 0px 1%;
+    width: 18%;
+    min-width: 100px;
+}
+
+section p {
+    padding: 0px 1%;
+    width: 78%;
+    text-align: justify;
 }
