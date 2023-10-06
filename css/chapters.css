@@ -4,14 +4,8 @@ main > *{
     margin: 2% auto;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     section {
-        width: 95%;
         flex-direction: column;
     }
 
@@ -25,26 +19,7 @@ main {
     }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 1000px) {
-    section {
-        width: 95%;
-    }
-
-    section img {
-        padding-left: 1%;
-        width: 38%;
-    }
-
-    section p {
-        width: 58%;
-    }
-}
-
-@media only screen and (min-width: 1001px) {
-    section {
-        width: 45%;
-    }
-
+@media only screen and (min-width: 501px) {
     section img {
         padding-left: 1%;
         width: 38%;
@@ -58,6 +33,7 @@ main {
 section {
     /* overflow: auto; */
     height: auto;
+    width: 100%;
     display: flex;
     align-items: center;
 }

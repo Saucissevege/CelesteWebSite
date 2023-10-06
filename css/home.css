@@ -9,3 +9,70 @@ main > * {
     padding: 1% 0px;
 }
 
+@media only screen and (max-width: 600px) {
+    #movimientos {
+        flex-direction: column;
+    }
+
+    li {
+        padding: auto;
+    }
+
+    ol {
+        margin: 0px auto;
+    }
+
+    p img {
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #movimientos {
+        flex-direction: row;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    ol {
+        margin: 05pxpx auto;
+    }
+
+    p img {
+        width: 100px;
+    }
+}
+
+p {
+    text-align: justify;
+}
+
+ol {
+    width: 90%;
+    margin: 0px auto;
+}
+
+ul {
+    width: 90%;
+}
+
+li {
+    text-align: justify;
+}
+
+#movimientos {
+    display: flex;
+    align-items: center;
+}
+
+div img {
+    width: 70%;
+    max-width: 250px;
+}
+
+p img {
+    margin: 0px 3%;
+    float: right;
+}

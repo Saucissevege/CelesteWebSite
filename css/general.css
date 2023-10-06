@@ -100,3 +100,9 @@ main {
     width: 95%;
     margin: 15px auto;
 }
+
+h2 {
+    text-align: center;
+    padding: 1% 0px;
+    width: 100%;
+}
