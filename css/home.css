@@ -73,3 +73,20 @@ p img {
     margin: 0px 3%;
     float: right;
 }
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #382d4b;
+}
+
+tr:nth-child(odd) {
+    background-color: #4a3c64;
+}
+
+tr:nth-child(even) {
+    background-color: #594878;
+}
