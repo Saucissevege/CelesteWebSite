@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Celeste</title>
+</head>
+<body>
+    <header>
+        <img src="../videos/Madeline_Idle_Animation_(No_Backpack).gif" alt="Madeline animación">
+        <h1>Celeste</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../html/index.html">Presentación</a>
+            </li>
+            <li>
+                <a href="../html/chapters.html">Capítulos</a>
+            </li>
+            <li>
+                <a href="../html/techniques.html">Técnicas</a>
+            </li>
+            <li>
+                <a href="../html/contact.html" class="selected">Contactarme</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contactarme</h2>
+        <div>
+            <p>Si tiene una pregunta, puede contactarme con este formulario</p>
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div class="labelinput">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="labelinput">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" name="apellidos" id="apellidos">
+                    </div>
+                    <div class="labelinput">
+                        <label for="fecha">Fecha de nacimiento:</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+                    <div class="labelinput">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Otras informaciones</legend>
+                    <div class="labelinput">
+                        <label for="plataforma">¿En qué plataforma juegas a Celeste?:</label>
+                        <select name="plataforma" id="plataforma">
+                            <option value="ordenador">Ordenador</option>
+                            <option value="switch">Nintendo Switch</option>
+                            <option value="xbox">Xbox</option>
+                            <option value="ps4">PS4</option>
+                        </select>
+                    </div>
+                    <div class="labelinput">
+                        <label for="tipo">Tipo de mensaje:</label>
+                        <div>
+                            <input type="radio" name="tipo" id="pregunta" checked>Pregunta
+                            <input type="radio" name="tipo" id="error">Error del sitio
+                        </div>
+                    </div>
+                    <div class="labeltextarea">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    </div>
+                </fieldset>
+                <div id="condiciones">
+                    <input type="checkbox" name="aceptar" id="aceptar">Acepto las condiciones
+                </div>
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>@2023 - Kylian CONNAN</p>
+        <p>Para contactarme: k.connan@opendeusto.es</p>
+    </footer>
+</body>
+</html>

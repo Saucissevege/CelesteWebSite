@@ -1,12 +1,9 @@
-main {
+main > * {
     background-color: rgba(82, 70, 112, 0.7);
     border-radius: 10px;
-}
-
-main > * {
     width: 95%;
-    margin: 0px auto;
-    padding: 1% 0px;
+    margin: 2% auto;
+    padding: 1%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,7 +64,7 @@ main li {
     align-items: center;
 }
 
-div img {
+#movimientos img {
     width: 70%;
     max-width: 250px;
 }
