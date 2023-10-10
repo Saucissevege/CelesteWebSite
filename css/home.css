@@ -1,3 +1,5 @@
+/* Estilo general de la página  */
+
 main > * {
     background-color: rgba(82, 70, 112, 0.7);
     border-radius: 10px;
@@ -6,13 +8,11 @@ main > * {
     padding: 1%;
 }
 
+/* Estilo adaptado al tamaño de la pantalla para mantener la legibilidad */
+
 @media only screen and (max-width: 600px) {
     #movimientos {
         flex-direction: column;
-    }
-
-    main li {
-        padding: auto;
     }
 
     main ol {
@@ -34,7 +34,7 @@ main > * {
     }
 
     main ol {
-        margin: 05pxpx auto;
+        margin: 05px auto;
     }
 
     p img {
@@ -45,6 +45,8 @@ main > * {
 p {
     text-align: justify;
 }
+
+/* Estilo de las distintas listas */
 
 main ol {
     width: 90%;
@@ -58,6 +60,8 @@ main ul {
 main li {
     text-align: justify;
 }
+
+/* Estilo para imagen y texto en paralelo */
 
 #movimientos {
     display: flex;
@@ -73,6 +77,8 @@ p img {
     margin: 0px 3%;
     float: right;
 }
+
+/* Estilo para la tabla */
 
 table {
     margin: 0 auto;

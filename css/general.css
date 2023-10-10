@@ -1,3 +1,5 @@
+/* Importación de fuentes */
+
 @font-face {
     font-family: celesteFont;
     src: url(../font/Renogare-Regular.otf);
@@ -7,6 +9,8 @@
     font-family: celesteFont;
     color: white;
 }
+
+/* Gestión de diferentes tamaños de pantalla para la cabecera en particular */
 
 @media only screen and (max-width: 400px) {
     nav ul {
@@ -23,6 +27,8 @@
         height: 50px;
     }
 }
+
+/* Estilo para toda la página */
 
 html {
     width: 100%;
@@ -41,6 +47,8 @@ body {
     margin: 0px;
 }
 
+/* Estilo del header */
+
 header {
     width: auto;
     margin: 0px auto;
@@ -55,6 +63,8 @@ header img {
     width: 80px;
 }
 
+/* Estilo del footer */
+
 footer {
     width: 100%;
     margin: 0px auto;
@@ -66,6 +76,8 @@ footer p {
     text-align: center;
     margin: 0px;
 }
+
+/* Estilo de navegación (básico, al pasar el ratón por encima ...) */
 
 nav {
     background-color: #140b15;
@@ -100,10 +112,14 @@ nav a:hover {
     color: black;
 }
 
+/* Esta clase se utiliza para colorear la página seleccionada actualmente */
+
 .selected {
     background-color: #2f2644;
     color: white;
 }
+
+/* Estilo general de página y título */
 
 main {
     width: 95%;

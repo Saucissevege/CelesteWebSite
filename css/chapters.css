@@ -1,8 +1,12 @@
+/* Estilo general de la página  */
+
 main > *{
     background-color: rgba(82, 70, 112, 0.7);
     border-radius: 10px;
     margin: 2% auto;
 }
+
+/* Estilo adaptado al tamaño de la pantalla para mantener la legibilidad */
 
 @media only screen and (max-width: 500px) {
     section {
@@ -29,6 +33,8 @@ main > *{
         width: 58%;
     }
 }
+
+/* Estilo para cada sección, cada capítulo */
 
 section {
     /* overflow: auto; */
